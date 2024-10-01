@@ -39,9 +39,11 @@ export function Navbar() {
       </div>
       <List>
         <ListItem>
+          <Link to={"/products"}>
           <ListItemPrefix>
             <ShoppingBagIcon className="h-5 w-5 text-white" />
           </ListItemPrefix>
+          </Link>  
         </ListItem>
         <ListItem>
           <ListItemPrefix>
